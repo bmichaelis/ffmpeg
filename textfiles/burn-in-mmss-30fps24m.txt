@@ -1,0 +1,1 @@
+%{expr_int_format: floor(((n+43200)/30)/60) : d : 2}:%{eif: mod(floor((n+43200)/30), 60) :d:2}
